@@ -5,41 +5,27 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="5733137689621"
+    timestamp="3265041089210"
     token="3973071940970627531"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1441" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="477" />
     <task
         name="verifier"
-        duration="0" />
+        duration="22" />
 
     <artifact
-        location="/home/aman/ArduinoBluetooth2/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="/home/aman/android_bluetooth/build/outputs/apk/android_bluetooth-debug.apk"
+        type="MAIN" />
 
-    <build
-        timestamp="5377233921230"
-        verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/home/aman/ArduinoBluetooth2/build/outputs/apk/ArduinoBluetooth2-debug.apk"
-            type="MAIN" />
-    </build>
-    <build
-        timestamp="5599146875670"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/home/aman/ArduinoBluetooth2/build/intermediates/builds/debug/5599146875670/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
     <build
         timestamp="5733137689621"
         verifier="COMPATIBLE" >

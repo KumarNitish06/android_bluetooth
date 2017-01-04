@@ -1,4 +1,4 @@
-#Tue Jan 03 23:59:50 IST 2017
-base.0=/home/aman/ArduinoBluetooth2/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Wed Jan 04 11:22:51 IST 2017
+base.0=/home/aman/android_bluetooth/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.0=/home/aman/ArduinoBluetooth2/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.0=/home/aman/android_bluetooth/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
