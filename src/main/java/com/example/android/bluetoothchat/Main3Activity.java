@@ -53,20 +53,21 @@ public class Main3Activity extends ActionBarActivity {
                 // mViewPager.setCurrentItem(tab.getPosition());
                 if(tab.getPosition()==0) {
                     Toast.makeText(getApplication(), "tab0", Toast.LENGTH_LONG).show();
-                    mDemoCollectionPagerAdapter =
-                            new DemoCollectionPagerAdapter(
-                                    getSupportFragmentManager());
-                    mViewPager = (ViewPager) findViewById(R.id.pager);
-                    mViewPager.setAdapter(mDemoCollectionPagerAdapter);
-                }
-
-                if(tab.getPosition()==1) {
-                    Toast.makeText(getApplication(), "tab1", Toast.LENGTH_LONG).show();
                     graphPageAdapter =
                             new GraphPageAdapter(
                                     getSupportFragmentManager());
                     mViewPager = (ViewPager) findViewById(R.id.pager);
                     mViewPager.setAdapter(graphPageAdapter);
+                }
+
+                if(tab.getPosition()==1) {
+                    Toast.makeText(getApplication(), "tab1", Toast.LENGTH_LONG).show();
+
+                    mDemoCollectionPagerAdapter =
+                            new DemoCollectionPagerAdapter(
+                                    getSupportFragmentManager());
+                    mViewPager = (ViewPager) findViewById(R.id.pager);
+                    mViewPager.setAdapter(mDemoCollectionPagerAdapter);
                 }
                 if(tab.getPosition()==2){
                     mDemoCollectionPagerAdapter =
@@ -194,13 +195,4 @@ Bundle args = getArguments();
             ((TextView) rootView.findViewById(R.id.text1)).setText(
                     Integer.toString(args.getInt(ARG_OBJECT)));
             return rootView;
-
-
-            zjfnksjdb jsdbkvbsdkjbvds kvsb djds
-            sdvgdr
-
-            sfgedf
-            g
-            dfgdehfr
-            tr
  */
